@@ -1,0 +1,25 @@
+{
+    "name": "schema",
+    "displayName": "schema",
+    "description": "Schema language definition",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "schema",
+            "aliases": ["Schema", "schema"],
+            "extensions": [".schema"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "schema",
+            "scopeName": "source.schema",
+            "path": "./syntaxes/schema.tmLanguage.json"
+        }]
+    }
+}
