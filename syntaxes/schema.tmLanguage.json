@@ -146,7 +146,7 @@
       "name": "scalar.field",
       "patterns": [
         {
-          "match": "^\\s*(\\w+)(\\s*:)?\\s+((?!(?:Int|String|DateTime|Bytes|Decimal|Float|Json|Boolean)\\b)\\b\\w+)?(Int|String|DateTime|Bytes|Decimal|Float|Json|Boolean)?(\\[\\])?(\\?)?(\\!)?",
+          "match": "^\\s*(\\w+)(\\s*:)?\\s+((?!(?:Int|String|DateTime|Bytes|Decimal|Float|Json|Boolean|ObjectId)\\b)\\b\\w+)?(Int|String|DateTime|Bytes|Decimal|Float|Json|Boolean|ObjectId)?(\\[\\])?(\\?)?(\\!)?",
           "captures": {
             "1": {
               "name": "variable.other.assignment.schema"
